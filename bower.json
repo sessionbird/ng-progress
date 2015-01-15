@@ -1,0 +1,18 @@
+{
+  "name": "ng-progress",
+  "version": "0.1.0",
+  "authors": [
+    "Christoph Hartmann"
+  ],
+  "description": "A collection of progress indicators animated with CSS",
+  "keywords": [
+    "css",
+    "scss",
+    "web"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules"
+  ]
+}

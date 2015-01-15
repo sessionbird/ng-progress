@@ -1,0 +1,25 @@
+{
+  "name": "ng-progress",
+  "description": "A collection of progress indicators animated with CSS",
+  "version": "0.1.0",
+  "keywords": [
+    "progress",
+    "bar"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-contrib-sass": "~0.8.1",
+    "grunt-jsvalidate": "^0.2.2",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-clean": "~0.6.0"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "package.json",
+    "test",
+    "vendor"
+  ]
+}
