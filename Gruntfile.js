@@ -98,8 +98,7 @@ module.exports = function(grunt) {
 
   grunt.registerTask('build', [
     'clean:dist',
-    'sass',
-    'sass:barbershop'
+    'sass'
   ]);
 
   grunt.registerTask('default', [
