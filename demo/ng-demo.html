@@ -12,18 +12,18 @@
 
   <input ng-model="progress" type="text" />
 
-  <div ng-progress ng-model="progress"></div>
-
-  <link rel="stylesheet" href="../dist/css/barber-shop.css">
+  <div ng-progress theme="barber-shop" ng-model="progress" style="width: 800px; height: 10px; position: relative;"></div>
+  <div ng-progress theme="loading-bar" ng-model="progress" style="width: 800px; height: 80px; position: relative;"></div>
+  <link rel="stylesheet" href="../dist/css/progress.css">
 
   <style type="text/css"></style>
   <script src="../lib/ng-progress.js"></script>
   <script type="text/javascript">
-    angular.module("progress-app", ["angular-progress"])
-      .controller("ctrl", function($scope) {
-        $scope.title = "AngularJS Progress Demo";
-        $scope.progress = 50;
-      });
+  angular.module("progress-app", ["angular-progress"])
+    .controller("ctrl", function($scope) {
+      $scope.title = "AngularJS Progress Demo";
+      $scope.progress = 50;
+    });
   </script>
 
 </body>
